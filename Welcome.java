@@ -9,6 +9,7 @@ public class Welcome
 		LocalDate date = LocalDate.now();
 		LocalTime time = LocalTime.now();
 		System.out.println("Date is: " + date);
+		System.out.println("The time will be displayed below");
 		System.out.println("Time is: " + time);
 	}
 }
