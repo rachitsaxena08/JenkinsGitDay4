@@ -1,10 +1,13 @@
 import java.util.*;
+import java.time.*;
 
 public class Welcome
 {
 
 	public static void main(String[] args)
 	{
-		System.out.println("Todays date is: " + new Date());
+		LocalDate date = LocalDate.now();
+		LocalTime time = LocalTime.now();
+		System.out.println(date +  "," +  time);
 	}
 }
